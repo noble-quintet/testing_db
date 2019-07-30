@@ -1,0 +1,370 @@
+{
+  "dashboard": {
+    "users": {
+      "active": 20,
+      "total": 40
+    },
+    "enagagement": "40%",
+    "Triggers": {
+      "reamaining": 15,
+      "total": 45
+    },
+    "geofences": [
+      {
+        "name": "Bank of America",
+        "value": 150,
+        "progress": 100
+      },
+      {
+        "name": "Chase Bank",
+        "value": 120,
+        "progress": 87
+      },
+      {
+        "name": "US Bank",
+        "value": 100,
+        "progress": 80
+      },
+      {
+        "name": "Lorem Bank",
+        "value": 90,
+        "progress": 53
+      },
+      {
+        "name": "Ipsum Bank",
+        "value": 60,
+        "progress": 45
+      }
+    ],
+    "campaigns": [
+      "St Louis Bank",
+      "St Louis Wells Fargo",
+      "Test Geofence",
+      "Nomad"
+    ],
+    "mapdata": [
+      {
+        "id": "0",
+        "geofence_name": "Bank of America",
+        "traffic": 150,
+        "hashvalue": 10,
+        "type": "single",
+        "dwell_time": "5 Mins",
+        "avg_freq": 40,
+        "labels": "Retail",
+        "shape": "polygon",
+        "coordinates": [
+          {
+            "lat": 9.92376166099139,
+            "lng": 76.26686276287467
+          },
+          {
+            "lat": 9.919449761900134,
+            "lng": 76.26591862530142
+          },
+          {
+            "lat": 9.918688832639557,
+            "lng": 76.26960934490592
+          }
+        ],
+        "overlay": {
+          "color": "yellow",
+          "value": 19
+        },
+        "color": "orange"
+      },
+      {
+        "id": "1",
+        "geofence_name": "test geo",
+        "traffic": 150,
+        "hashvalue": 10,
+        "type": "single",
+        "dwell_time": "5 Mins",
+        "avg_freq": 40,
+        "labels": "Retail",
+        "shape": "polygon",
+        "coordinates": [
+          {
+            "lat": 9.92900520419118,
+            "lng": 76.26396974099498
+          },
+          {
+            "lat": 9.927737024778049,
+            "lng": 76.2638839103065
+          },
+          {
+            "lat": 9.926891569106486,
+            "lng": 76.26594384682994
+          },
+          {
+            "lat": 9.92968156453579,
+            "lng": 76.26671632302623
+          }
+        ],
+        "overlay": {
+          "color": "yellow",
+          "value": 19
+        },
+        "color": "orange"
+      },
+      {
+        "id": "2",
+        "geofence_name": "Bank of india",
+        "traffic": 150,
+        "hashvalue": 10,
+        "type": "single",
+        "dwell_time": "5 Mins",
+        "avg_freq": 40,
+        "labels": "Retail",
+        "shape": "rectangle",
+        "coordinates": [
+          {
+            "lat": 9.932839142601669,
+            "lng": 76.2599655761353
+          },
+          {
+            "lat": 9.934445477316846,
+            "lng": 76.26146761318364
+          }
+        ],
+        "overlay": {
+          "color": "yellow",
+          "value": 19
+        },
+        "color": "blue"
+      },
+      {
+        "id": "3",
+        "geofence_name": "testtt",
+        "traffic": 150,
+        "hashvalue": 10,
+        "type": "single",
+        "dwell_time": "5 Mins",
+        "avg_freq": 40,
+        "labels": "Retail",
+        "shape": "circle",
+        "radius": 143.1177367726333,
+        "coordinates": [
+          {
+            "lat": 9.93474138021988,
+            "lng": 76.25254122158208
+          }
+        ],
+        "overlay": {
+          "color": "yellow",
+          "value": 19
+        },
+        "color": "green"
+      }
+    ]
+  },
+  "getgeofence": {
+    "geofences": [
+      {
+        "geofence_name": "Bank of America",
+        "traffic": 150,
+        "hashvalue": 10,
+        "type": "single",
+        "dwell_time": "5 Mins",
+        "avg_freq": 40,
+        "labels": "Retail"
+      },
+      {
+        "geofence_name": "Chase Bank",
+        "traffic": 120,
+        "hashvalue": 8,
+        "type": "Bulk",
+        "dwell_time": "5 Mins",
+        "avg_freq": 40,
+        "labels": "Retail"
+      },
+      {
+        "geofence_name": "US Bank",
+        "traffic": 100,
+        "hashvalue": 8,
+        "type": "single",
+        "dwell_time": "5 Mins",
+        "avg_freq": 40,
+        "labels": "Retail"
+      },
+      {
+        "geofence_name": "Lorem Bank",
+        "traffic": 90,
+        "hashvalue": 5,
+        "type": "single",
+        "dwell_time": "5 Mins",
+        "avg_freq": 40,
+        "labels": "Competitor"
+      },
+      {
+        "geofence_name": "Ipsum Bank",
+        "traffic": 60,
+        "hashvalue": 4,
+        "type": "Bulk",
+        "dwell_time": "5 Mins",
+        "avg_freq": 40,
+        "labels": "Retail"
+      },
+      {
+        "geofence_name": "St Louis Wells Fargo",
+        "traffic": 150,
+        "hashvalue": 10,
+        "type": "single",
+        "dwell_time": "5 Mins",
+        "avg_freq": 40,
+        "labels": "Competitor"
+      },
+      {
+        "geofence_name": "Nomad",
+        "traffic": 120,
+        "hashvalue": 7,
+        "type": "single",
+        "dwell_time": "5 Mins",
+        "avg_freq": 40,
+        "labels": "Retail"
+      },
+      {
+        "geofence_name": "St Louis Bank",
+        "traffic": 100,
+        "hashvalue:": 8,
+        "type": "single",
+        "dwell_time": "5 Mins",
+        "avg_freq": 40,
+        "labels": "Retail"
+      },
+      {
+        "geofence_name": "Lorem Bank",
+        "traffic": 90,
+        "hashvalue": 5,
+        "type": "single",
+        "dwell_time": "5 Mins",
+        "avg_freq": 40,
+        "labels": "Retail"
+      },
+      {
+        "geofence_name": "Ipsum Bank",
+        "traffic": 60,
+        "hashvalue": 4,
+        "type": "Bulk",
+        "dwell_time": "5 Mins",
+        "avg_freq": 40,
+        "labels": "Retail"
+      },
+      {
+        "geofence_name": "Bank of America",
+        "traffic": 150,
+        "hashvalue": 10,
+        "type": "single",
+        "dwell_time": "5 Mins",
+        "avg_freq": 40,
+        "labels": "Retail"
+      },
+      {
+        "geofence_name": "Chase Bank",
+        "traffic": 120,
+        "hashvalue": 8,
+        "type": "single",
+        "dwell_time": "5 Mins",
+        "avg_freq": 40,
+        "labels": "Competitor"
+      },
+      {
+        "geofence_name": "US Bank",
+        "traffic": 100,
+        "hashvalue": 8,
+        "type": "Bulk",
+        "dwell_time": "5 Mins",
+        "avg_freq": 40,
+        "labels": "Retail"
+      },
+      {
+        "geofence_name": "Lorem Bank",
+        "traffic": 90,
+        "hashvalue": 3,
+        "type": "single",
+        "dwell_time": "5 Mins",
+        "avg_freq": 40,
+        "labels": "Retail"
+      },
+      {
+        "geofence_name": "Ipsum Bank",
+        "traffic": 60,
+        "hashvalue": 5,
+        "type": "single",
+        "dwell_time": "5 Mins",
+        "avg_freq": 40,
+        "labels": "Competitor"
+      }
+    ]
+  },
+  "postgeofence": [
+    {
+      "labels[]": [
+        "Competitor",
+        "Retail"
+      ],
+      "geofence_name": "hjgj",
+      "address": "gjhgj",
+      "my_location": "false",
+      "name": "jhgj",
+      "email": "ghjg",
+      "actions[push_notification]": "hgjgj"
+    },
+    {
+      "id": "0",
+      "labels[]": "g",
+      "geofence_name": "hgjg",
+      "address": "ghj",
+      "my_location": "false",
+      "name": "ghj",
+      "email": "ghj",
+      "actions[push_notification]": "ghj"
+    },
+    {
+      "id": "1",
+      "labels[]": "Competitor",
+      "geofence_name": "uy",
+      "address": "tutt",
+      "my_location": "false",
+      "name": "tu",
+      "email": "tyu"
+    },
+    {
+      "geofence_name": "",
+      "address": "",
+      "my_location": "false",
+      "name": "",
+      "email": "",
+      "id": "m33pl63"
+    },
+    {
+      "geofence_name": "",
+      "address": "",
+      "my_location": "false",
+      "name": "",
+      "email": "",
+      "id": "M1-FIZw"
+    },
+    {
+      "geofence_name": "",
+      "address": "Kolkata, West Bengal, India",
+      "my_location": "false",
+      "name": "",
+      "email": "",
+      "id": "cRzlyoz"
+    },
+    {
+      "id": "4",
+      "geofence_name": "",
+      "address": "",
+      "my_location": "false",
+      "name": "",
+      "email": "",
+      "shape": "rectangle",
+      "coordinates[]": [
+        "[object Object]",
+        "[object Object]"
+      ]
+    }
+  ]
+}
